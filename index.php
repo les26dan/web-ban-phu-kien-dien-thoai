@@ -10,18 +10,77 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <img src="images/banner.jpg">
         </div>
         <div class="menu">
-            <p>menu</p>
+            <ul class="list_menu">
+                <li><a href="index.php"> Trang chủ</a></li>
+                <li> <a href="#"> Danh mục sản phẩm </a></li>
+                <li> <a href="#"> Giỏ hàng </a></li>
+                <li> <a href="#"> Tin tức </a></li>
+                <li> <a href="#"> Liên hệ </a></li>
+            </ul>
         </div>
-        <div class="main">
-            <div class="sidebar"> sidebar</div>
-            <div class="maincontent"> maincontent</div>
+        <div id="main">
+            <div class="sidebar"> 
+            <ul class="list_sidebar">
+                <li> <a href="#"> Ốp lưng</a></li>
+                <li> <a href="#"> Tai nghe </a></li>
+                <li> <a href="#"> Cục sạc </a></li>
+                <li> <a href="#"> Dán màn hình </a></li>
+                <li> <a href="#"> Gậy tự sướng </a></li>
+                <li> <a href="#"> Lót bàn phím </a></li>
+            </ul>
+            </div>
+            <div class="main_content"> 
+                <ul class="product_list">
+                    <li>
+                        <a href="">
+                            <img src="images/tainghe1.jpg">
+                            <p class="title_product"> Tên sản phẩm: Tai nghe Sony 001</p>
+                            <p class="price_product">Giá : 3000000 vnđ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/tainghe1.jpg">
+                            <p class="title_product"> Tên sản phẩm: Tai nghe Sony 001</p>
+                            <p class="price_product">Giá : 3000000 vnđ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/tainghe1.jpg">
+                            <p class="title_product"> Tên sản phẩm: Tai nghe Sony 001</p>
+                            <p class="price_product">Giá : 3000000 vnđ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/tainghe1.jpg">
+                            <p class="title_product"> Tên sản phẩm: Tai nghe Sony 001</p>
+                            <p class="price_product">Giá : 3000000 vnđ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/tainghe1.jpg">
+                            <p class="title_product"> Tên sản phẩm: Tai nghe Sony 001</p>
+                            <p class="price_product">Giá : 3000000 vnđ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/tainghe1.jpg">
+                            <p class="title_product"> Tên sản phẩm: Tai nghe Sony 001</p>
+                            <p class="price_product">Giá : 3000000 vnđ</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="clear"></div>
         <div class="footer">
-            <p>footer</p>
+            <p class="footer-copyright"> Địa chỉ: 199 Hồ Tùng Mậu, phường Cầu Diễn, quận Nam Từ Liêm, Hà Nội.</p>
         </div>
     </div>
 </body>
